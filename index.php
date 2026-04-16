@@ -1,5 +1,5 @@
  <?php
-echo "<pre>"; // 👈 Proper structure ke liye
+echo "<pre>"; 
 
 function calculateTotal($items, $tax = 0.05){
     $total = 0;
@@ -77,5 +77,5 @@ foreach ($orders as $order) {
     echo "-----------------------------\n\n";
 }
 
-echo "</pre>"; // 👈 end
+echo "</pre>";
 ?>
